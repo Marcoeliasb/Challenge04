@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Personal Blog</h1>
+        </header>
+        <main>
+            <form id="blogForm"> <!--Formulario para las entradas del blog-->
+                <label for="username">Username:</label><!--Etiqueta para el nombre de usuario-->
+                <input type="text" id="username" required><!--Campo para que ingresen el usuario-->
+                <label for="title">Blog Title:</label><!--Etiqueta para el campo del titulo del blog-->
+                <input type="text" id="title" required><!--Campo de entrada para el titulo-->
+                <label for="content">Blog Content:</label><!--Etiqueta para el contenido-->
+                <textarea id="content" required></textarea><!--Area de texto para el Blog-->
+                <button type="submit">Submit</button><!--Boton para cargar el formulario del Blog-->
+            </form>
+        </main>
+        <script src="script.js" defer></script>
+    </body>
+</html>
